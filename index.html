@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aura Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="heading">
+    <h1>
+      <span class="emoji">🔥</span> AURA CALCULATOR <span class="emoji">🔥</span>
+    </h1>
+    <p>Your habits = your Aura. Let’s check it <span class="emoji">🔮</span></p>
+  </div>
+  
+  <div id="root"></div> 
+
+  <button onclick="calculateAura()" class="resultBtn">Calculate Aura</button>
+
+  <!-- Result Modal -->
+  <div id="resultScreen" class="resultScreen hidden">
+    <div class="resultBox">
+      <h1 id="resultText"></h1>
+      <button class="closeBtn" onclick="closeResult()">Close</button>
+    </div>
+  </div>
+<footer class="footer">
+  <p>© 2025 Aura Calculator. Developed by <span class="footer-devs">Joydeep Bhattacharya & Lingkon Dash</span>. Idea by <span class="footer-idea">Antu Bhattacharya</span>.</p>
+</footer>
+  <script src="main.js"></script>
+</body>
+</html>
