@@ -1,0 +1,125 @@
+{
+  "auraFactors": [
+    {
+      "title": "What time did you wake up?",
+      "factors": {
+        "🌅 5 AM – 7 AM (Very early, energetic)": 10,
+        "☀️ 7 AM – 9 AM (Normal start)": 7,
+        "🌤️ 9 AM – 11 AM (Late start)": -5,
+        "🌙 After 11 AM (Very late, lazy start)": -10
+      }
+    },
+    {
+      "title": "Did you make your bed?",
+      "factors": {
+        "✅ Yes (Organized, disciplined)": 5,
+        "❌ No (Messy start)": -3
+      }
+    },
+    {
+      "title": "Did you drink water after waking up?",
+      "factors": {
+        "💧 Yes, 1–2 glasses (Healthy start)": 5,
+        "🥤 Only tea/coffee (Not ideal)": 0,
+        "🚫 Nothing at all (Unhealthy)": 0
+      }
+    },
+    {
+      "title": "Did you eat breakfast?",
+      "factors": {
+        "🥗 Healthy breakfast (fruits, oats, eggs)": 10,
+        "🍞 Light but okay (bread, biscuits, tea)": 5,
+        "🚫 Skipped breakfast (bad for energy)": -5
+      }
+    },
+    {
+      "title": "Did you consume junk food in the morning?",
+      "factors": {
+        "🚫 No (Healthy choice)": 5,
+        "🍩 Yes (Unhealthy start)": -5
+      }
+    },
+    {
+      "title": "Did you exercise today?",
+      "factors": {
+        "🏃 Yes, 30+ mins workout (Great!)": 15,
+        "🚶 Light walk / stretching": 7,
+        "❌ No exercise": 0
+      }
+    },
+    {
+      "title": "How much focused work/study did you do?",
+      "factors": {
+        "⏳ 4+ hours (Very productive)": 15,
+        "⌛ 2–4 hours (Good effort)": 10,
+        "🕒 Less than 2 hours (Low effort)": 3,
+        "🚫 Did nothing (Wasted day)": -10
+      }
+    },
+    {
+      "title": "How distracted were you (social media/games)?",
+      "factors": {
+        "🚫 Hardly distracted": 10,
+        "📱 Moderate distraction": -5,
+        "🎮 Full day wasted on phone/games": -15
+      }
+    },
+    {
+      "title": "Lunch quality?",
+      "factors": {
+        "🥗 Balanced meal (veggies, protein, rice/bread)": 10,
+        "🍗 Heavy oily/junk food": 0,
+        "🚫 Skipped lunch": -5
+      }
+    },
+    {
+      "title": "Did you take a short nap/rest (power nap)?",
+      "factors": {
+        "😴 20–40 mins nap (Good recovery)": 5,
+        "🛌 Overslept 2+ hours (Lazy habit)": -3,
+        "🚫 No rest at all (Okay but tiring)": 0
+      }
+    },
+    {
+      "title": "Did you go outside / walk / socialize in evening?",
+      "factors": {
+        "👥 Met people / walk / outdoor activity": 7,
+        "🏠 Stayed home but did something useful": 3,
+        "🚫 Wasted evening doing nothing": -5
+      }
+    },
+    {
+      "title": "Evening snacks?",
+      "factors": {
+        "🍎 Healthy snack (fruits, nuts, tea)": 5,
+        "🍔 Junk food": -5,
+        "🚫 Skipped (neutral)": 0
+      }
+    },
+    {
+      "title": "Dinner quality?",
+      "factors": {
+        "🥗 Light & healthy dinner": 10,
+        "🍗 Heavy & oily dinner": 3,
+        "🚫 Skipped dinner": -5
+      }
+    },
+    {
+      "title": "Screen time before bed?",
+      "factors": {
+        "📵 No screen, relaxed": 10,
+        "📱 30–60 mins screen": -3,
+        "📺 2+ hrs screen time": -10
+      }
+    },
+    {
+      "title": "What time did you sleep?",
+      "factors": {
+        "🌙 9–11 PM (Perfect bedtime)": 10,
+        "🕛 11 PM – 1 AM (Acceptable)": 5,
+        "🌃 1 AM – 3 AM (Late sleep)": -7,
+        "🌌 After 3 AM (Very unhealthy)": -15
+      }
+    }
+  ]
+} 
